@@ -11,14 +11,14 @@ const downloadUserInfo = async (req, res) => {
     // const requestData = dbRes.rows[0];
     const requestData = {
       data: {
-        id: 1,
-        email: "admin@mail.com",
-        is_admin: true,
+        id: 10,
+        username: "notadmin",
+        email: "notadmin@mail.com",
         password:
-          "$2a$10$/ZaBZeSMB/COqY4j5hFHiOUtYFRSshwFwLDAxYGv2SYUSaHpSEGVu",
-        username: "admin",
-        created_at: "2023-06-10T01:35:43.836Z",
+          "$2a$10$Yf5CiJKTtNGcDxQSZv3hmu24Xt15VAdhgxMNJl6pKqxJtlRHsIFH2",
+        created_at: "2023-06-23T16:43:56.091Z",
         deleted_at: null,
+        isadmin: false,
       },
     };
 
